@@ -1,0 +1,1019 @@
+
+Start-Date: 2018-02-06  11:12:08
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsystemd0:amd64 (229-4ubuntu19, 229-4ubuntu21.1), udev:amd64 (229-4ubuntu19, 229-4ubuntu21.1), libudev1:amd64 (229-4ubuntu19, 229-4ubuntu21.1), systemd-sysv:amd64 (229-4ubuntu19, 229-4ubuntu21.1), libpam-systemd:amd64 (229-4ubuntu19, 229-4ubuntu21.1), systemd:amd64 (229-4ubuntu19, 229-4ubuntu21.1)
+End-Date: 2018-02-06  11:12:33
+
+Start-Date: 2018-02-06  20:17:54
+Commandline: apt-get remove vim vim-tiny vim-common vim-runtime
+Requested-By: ay (1000)
+Remove: vim-common:amd64 (2:7.4.1689-3ubuntu1.2), ubuntu-minimal:amd64 (1.361), vim-runtime:amd64 (2:7.4.1689-3ubuntu1.2), vim:amd64 (2:7.4.1689-3ubuntu1.2), vim-tiny:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-06  20:17:56
+
+Start-Date: 2018-02-07  12:41:33
+Commandline: apt install openjdk-8-jdk
+Requested-By: ay (1000)
+Install: ca-certificates-java:amd64 (20160321ubuntu1, automatic), openjdk-8-jdk:amd64 (8u151-b12-0ubuntu0.16.04.2), openjdk-8-jre:amd64 (8u151-b12-0ubuntu0.16.04.2, automatic), openjdk-8-jdk-headless:amd64 (8u151-b12-0ubuntu0.16.04.2, automatic), libgif7:amd64 (5.1.4-0.3~16.04, automatic), fonts-dejavu-extra:amd64 (2.35-1, automatic), openjdk-8-jre-headless:amd64 (8u151-b12-0ubuntu0.16.04.2, automatic), java-common:amd64 (0.56ubuntu2, automatic)
+End-Date: 2018-02-07  12:41:45
+
+Start-Date: 2018-02-07  15:46:09
+Commandline: apt-get install sublime-text-installer
+Requested-By: ay (1000)
+Install: sublime-text-installer:amd64 (3126-2~webupd8~1)
+End-Date: 2018-02-07  15:47:18
+
+Start-Date: 2018-02-07  17:03:20
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Install: python-pudb:amd64 (2015.4.1-1), python-chardet:amd64 (2.3.0-2, automatic), python-urwid:amd64 (1.3.1-2build1, automatic), python-pygments:amd64 (2.1+dfsg-1, automatic)
+End-Date: 2018-02-07  17:03:24
+
+Start-Date: 2018-02-07  19:51:46
+Commandline: apt remove python
+Requested-By: ay (1000)
+Remove: python-m2crypto:amd64 (0.22.6~rc4-1ubuntu1), gvfs-backends:amd64 (1.28.2-1ubuntu1~16.04.1), ibus-sunpinyin:amd64 (2.0.3-5build2), python-pudb:amd64 (2015.4.1-1), python-cairo:amd64 (1.8.8-2), python-chardet:amd64 (2.3.0-2), python-urwid:amd64 (1.3.1-2build1), python:amd64 (2.7.11-1), python-talloc:amd64 (2.1.5-2), samba-libs:amd64 (2:4.3.11+dfsg-0ubuntu0.16.04.12), python-pygments:amd64 (2.1+dfsg-1), python-pkg-resources:amd64 (20.7.0-1), python-all:amd64 (2.7.11-1), python-dev:amd64 (2.7.11-1), python-setuptools:amd64 (20.7.0-1), libsmbclient:amd64 (2:4.3.11+dfsg-0ubuntu0.16.04.12), shadowsocks:amd64 (2.1.0-1), python-gtk2:amd64 (2.24.0-4ubuntu1), python-wheel:amd64 (0.29.0-1), python-gobject-2:amd64 (2.28.6-12ubuntu1), python-glade2:amd64 (2.24.0-4ubuntu1), python-pip:amd64 (8.1.1-2ubuntu0.4), python-all-dev:amd64 (2.7.11-1)
+End-Date: 2018-02-07  19:51:51
+
+Start-Date: 2018-02-07  19:52:21
+Commandline: apt autoremove python
+Requested-By: ay (1000)
+Remove: python2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.3), sunpinyin-data:amd64 (0.1.22+20131212-1), libpython-all-dev:amd64 (2.7.11-1), libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.3), libpython-dev:amd64 (2.7.11-1), libsunpinyin3v5:amd64 (2.0.3+git20140127-4), python-pip-whl:amd64 (8.1.1-2ubuntu0.4)
+End-Date: 2018-02-07  19:52:23
+
+Start-Date: 2018-02-07  19:54:05
+Commandline: apt purge python
+Requested-By: ay (1000)
+Purge: python:amd64 ()
+End-Date: 2018-02-07  19:54:06
+
+Start-Date: 2018-02-08  01:26:09
+Commandline: apt install libibverbs-dev
+Requested-By: ay (1000)
+Install: libibverbs1:amd64 (1.1.8-1.1ubuntu2, automatic), libibverbs-dev:amd64 (1.1.8-1.1ubuntu2)
+End-Date: 2018-02-08  01:26:11
+
+Start-Date: 2018-02-09  03:19:52
+Commandline: apt install neovim
+Requested-By: ay (1000)
+Install: libunibilium0:amd64 (1.2.0-1, automatic), libuv1:amd64 (1.9.1-3~ubuntu16.04.1~ppa1, automatic), libvterm0:amd64 (0~bzr684-1~ubuntu16.04.1~ppa1, automatic), libluajit-5.1-2:amd64 (2.0.4+dfsg-1, automatic), neovim:amd64 (0.2.2-1ppa1~ubuntu16.04.3), libluajit-5.1-common:amd64 (2.0.4+dfsg-1, automatic), libjemalloc1:amd64 (3.6.0-9ubuntu1, automatic), libmsgpackc2:amd64 (1.4.2-4~ubuntu16.04.1~ppa1, automatic), xsel:amd64 (1.2.0-2, automatic), neovim-runtime:amd64 (0.2.2-1ppa1~ubuntu16.04.3, automatic), libtermkey1:amd64 (0.20-1ppa1~ubuntu16.04.2, automatic)
+End-Date: 2018-02-09  03:19:56
+
+Start-Date: 2018-02-09  03:21:28
+Commandline: apt install python-dev python-pip python3-dev python3-pip
+Requested-By: ay (1000)
+Install: python3-dev:amd64 (3.5.1-3), python2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.3, automatic), libpython-all-dev:amd64 (2.7.11-1, automatic), python3-pip:amd64 (8.1.1-2ubuntu0.4), python3-wheel:amd64 (0.29.0-1, automatic), libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.3, automatic), python3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.4, automatic), python:amd64 (2.7.11-1, automatic), libpython-dev:amd64 (2.7.11-1, automatic), python-pkg-resources:amd64 (20.7.0-1, automatic), python-all:amd64 (2.7.11-1, automatic), libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.4, automatic), python-dev:amd64 (2.7.11-1), python-setuptools:amd64 (20.7.0-1, automatic), python-wheel:amd64 (0.29.0-1, automatic), libpython3-dev:amd64 (3.5.1-3, automatic), python-pip-whl:amd64 (8.1.1-2ubuntu0.4, automatic), python-pip:amd64 (8.1.1-2ubuntu0.4), python3-setuptools:amd64 (20.7.0-1, automatic), python-all-dev:amd64 (2.7.11-1, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  03:21:37
+
+Start-Date: 2018-02-09  04:18:39
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Install: python-pudb:amd64 (2015.4.1-1), python-chardet:amd64 (2.3.0-2, automatic), python-urwid:amd64 (1.3.1-2build1, automatic), python-pygments:amd64 (2.1+dfsg-1, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  04:18:41
+
+Start-Date: 2018-02-09  04:21:03
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  04:21:03
+
+Start-Date: 2018-02-09  04:29:30
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  04:29:30
+
+Start-Date: 2018-02-09  04:37:59
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  04:38:00
+
+Start-Date: 2018-02-09  04:39:19
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  04:39:20
+
+Start-Date: 2018-02-09  04:41:18
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  04:41:19
+
+Start-Date: 2018-02-09  10:23:52
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libminiupnpc10:amd64 (1.9.20140610-2ubuntu2.16.04.1, 1.9.20140610-2ubuntu2.16.04.2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:23:54
+
+Start-Date: 2018-02-09  10:24:15
+Commandline: apt-get remove python-pudb
+Requested-By: ay (1000)
+Remove: python-pudb:amd64 (2015.4.1-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:24:16
+
+Start-Date: 2018-02-09  10:24:27
+Commandline: apt-get remove python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:24:28
+
+Start-Date: 2018-02-09  10:24:44
+Commandline: apt remove python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:24:44
+
+Start-Date: 2018-02-09  10:26:12
+Commandline: apt-get purge python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:26:13
+
+Start-Date: 2018-02-09  10:26:38
+Commandline: apt remove --auto-remove python-pudb
+Requested-By: ay (1000)
+Remove: python-chardet:amd64 (2.3.0-2), python-urwid:amd64 (1.3.1-2build1), python-pygments:amd64 (2.1+dfsg-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:26:39
+
+Start-Date: 2018-02-09  10:26:45
+Commandline: apt remove --auto-remove python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:26:46
+
+Start-Date: 2018-02-09  10:26:58
+Commandline: apt-get purge python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:26:59
+
+Start-Date: 2018-02-09  10:29:02
+Commandline: apt remove --autoremove python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:29:03
+
+Start-Date: 2018-02-09  10:31:15
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Install: python-pudb:amd64 (2015.4.1-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:31:17
+
+Start-Date: 2018-02-09  10:36:46
+Commandline: apt install python-pudb
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:36:47
+
+Start-Date: 2018-02-09  10:42:18
+Commandline: apt install zsh -y
+Requested-By: ay (1000)
+Install: zsh:amd64 (5.1.1-1ubuntu2), zsh-common:amd64 (5.1.1-1ubuntu2, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:42:20
+
+Start-Date: 2018-02-09  10:43:42
+Commandline: apt install zsh -y
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:43:43
+
+Start-Date: 2018-02-09  10:47:56
+Commandline: apt install -f
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  10:47:57
+
+Start-Date: 2018-02-09  11:20:28
+Commandline: apt install atom
+Requested-By: ay (1000)
+Install: atom:amd64 (1.23.3-1~webupd8~0)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-09  11:20:38
+
+Start-Date: 2018-02-09  11:48:53
+Commandline: apt -f install
+Requested-By: ay (1000)
+End-Date: 2018-02-09  11:48:53
+
+Start-Date: 2018-02-09  11:53:01
+Commandline: apt remove atom
+Requested-By: ay (1000)
+Remove: atom:amd64 (1.23.3-1~webupd8~0)
+End-Date: 2018-02-09  11:53:02
+
+Start-Date: 2018-02-09  11:53:11
+Commandline: apt install atom
+Requested-By: ay (1000)
+Install: atom:amd64 (1.23.3-1~webupd8~0)
+End-Date: 2018-02-09  11:53:20
+
+Start-Date: 2018-02-09  13:36:02
+Commandline: apt install vim-gnome-py2
+Requested-By: ay (1000)
+Install: javascript-common:amd64 (11, automatic), vim-gnome:amd64 (2:7.4.1689-3ubuntu1.2, automatic), vim-common:amd64 (2:7.4.1689-3ubuntu1.2, automatic), ruby2.3:amd64 (2.3.1-2~16.04.6, automatic), rake:amd64 (10.5.0-2, automatic), ruby-net-telnet:amd64 (0.1.1-2, automatic), libjs-jquery:amd64 (1.11.3+dfsg-4, automatic), ruby-minitest:amd64 (5.8.4-2, automatic), libruby2.3:amd64 (2.3.1-2~16.04.6, automatic), ruby:amd64 (1:2.3.0+1, automatic), vim-runtime:amd64 (2:7.4.1689-3ubuntu1.2, automatic), ruby-power-assert:amd64 (0.2.7-1, automatic), vim-gui-common:amd64 (2:7.4.1689-3ubuntu1.2, automatic), rubygems-integration:amd64 (1.10, automatic), fonts-lato:amd64 (2.0-1, automatic), vim-gnome-py2:amd64 (2:7.4.1689-3ubuntu1.2), ruby-test-unit:amd64 (3.1.7-2, automatic), ruby-did-you-mean:amd64 (1.0.0-2, automatic)
+End-Date: 2018-02-09  13:36:12
+
+Start-Date: 2018-02-11  01:53:28
+Commandline: apt install vim-nox-py2
+Requested-By: ay (1000)
+Install: vim-nox-py2:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-11  01:53:29
+
+Start-Date: 2018-02-11  02:30:30
+Commandline: apt install build-essential cmake
+Requested-By: ay (1000)
+Install: cmake-data:amd64 (3.5.1-1ubuntu3, automatic), cmake:amd64 (3.5.1-1ubuntu3), libjsoncpp1:amd64 (1.7.2-1, automatic)
+End-Date: 2018-02-11  02:30:35
+
+Start-Date: 2018-02-11  02:57:05
+Commandline: apt install vim-nox
+Requested-By: ay (1000)
+Install: vim-nox:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-11  02:57:06
+
+Start-Date: 2018-02-12  01:36:49
+Commandline: apt install ctags
+Requested-By: ay (1000)
+Install: exuberant-ctags:amd64 (1:5.9~svn20110310-11)
+End-Date: 2018-02-12  01:36:51
+
+Start-Date: 2018-02-12  14:17:31
+Commandline: apt install python-gtk2 python-setuptools python-distutils-extra
+Requested-By: ay (1000)
+Install: autotools-dev:amd64 (20150820.1, automatic), m4:amd64 (1.4.17-5, automatic), automake:amd64 (1:1.15-4ubuntu1, automatic), python-cairo:amd64 (1.8.8-2, automatic), python-distutils-extra:amd64 (2.39-1), autoconf:amd64 (2.69-9, automatic), python-gtk2:amd64 (2.24.0-4ubuntu1), intltool:amd64 (0.51.0-2ubuntu1.16.04.1, automatic), python-gobject-2:amd64 (2.28.6-12ubuntu1, automatic), libsigsegv2:amd64 (2.10-4, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  14:17:34
+
+Start-Date: 2018-02-12  14:18:59
+Commandline: apt install python-gtk2 python-setuptools python-distutils-extra
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  14:19:00
+
+Start-Date: 2018-02-12  14:20:06
+Commandline: apt install vim
+Requested-By: ay (1000)
+Install: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  14:20:07
+
+Start-Date: 2018-02-12  14:24:00
+Commandline: apt install ctags
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  14:24:00
+
+Start-Date: 2018-02-12  14:26:09
+Commandline: apt install ctags
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  14:26:09
+
+Start-Date: 2018-02-12  14:26:49
+Commandline: apt install python-cairo
+Requested-By: ay (1000)
+End-Date: 2018-02-12  14:26:50
+
+Start-Date: 2018-02-12  14:34:16
+Commandline: apt-get --reinstall install python-cairo
+Requested-By: ay (1000)
+Reinstall: python-cairo:amd64 (1.8.8-2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  14:34:16
+
+Start-Date: 2018-02-12  14:37:48
+Commandline: apt autoremove
+Requested-By: ay (1000)
+End-Date: 2018-02-12  14:37:48
+
+Start-Date: 2018-02-12  15:02:40
+Commandline: apt install screenkey
+Requested-By: ay (1000)
+Install: python-xlib:amd64 (0.14+20091101-5, automatic), screenkey:amd64 (0.2-2fakesync1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:02:41
+
+Start-Date: 2018-02-12  15:04:18
+Commandline: apt install ctags
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:04:18
+
+Start-Date: 2018-02-12  15:04:39
+Commandline: apt autoremove
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:04:40
+
+Start-Date: 2018-02-12  15:06:04
+Commandline: apt autoremove
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:06:04
+
+Start-Date: 2018-02-12  15:16:32
+Commandline: apt install simplescreenrecorder
+Requested-By: ay (1000)
+Install: libsnappy1v5:amd64 (1.1.3-2, automatic), libavutil-ffmpeg54:amd64 (7:2.8.11-0ubuntu0.16.04.1, automatic), libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-11build1, automatic), va-driver-all:amd64 (1.7.0-1ubuntu0.1, automatic), libopenjpeg5:amd64 (1:1.5.2-3.1, automatic), simplescreenrecorder:amd64 (0.3.9+2~ppa1~xenial1), libswresample-ffmpeg1:amd64 (7:2.8.11-0ubuntu0.16.04.1, automatic), libmp3lame0:amd64 (3.99.5+repack1-9build1, automatic), libbdplus0:amd64 (0.1.2-1, automatic), libllvm5.0:amd64 (1:5.0-3~16.04.1, automatic), libva1:amd64 (1.7.0-1ubuntu0.1, automatic), libx264-148:amd64 (2:0.148.2643+git5c65704-1, automatic), libx265-79:amd64 (1.9-3, automatic), libxvidcore4:amd64 (2:1.3.4-1, automatic), libzvbi0:amd64 (0.2.35-10, automatic), libaacs0:amd64 (0.8.1-1, automatic), libgme0:amd64 (0.6.0-3ubuntu0.16.04.1, automatic), libssh-gcrypt-4:amd64 (0.6.3-4.3, automatic), libsoxr0:amd64 (0.1.2-1, automatic), libswscale-ffmpeg3:amd64 (7:2.8.11-0ubuntu0.16.04.1, automatic), simplescreenrecorder-lib:amd64 (0.3.9+2~ppa1~xenial1, automatic), libshine3:amd64 (3.1.0-4, automatic), libavcodec-ffmpeg56:amd64 (7:2.8.11-0ubuntu0.16.04.1, automatic), libtwolame0:amd64 (0.3.13-1.2, automatic), libmodplug1:amd64 (1:0.8.8.5-2, automatic), libavformat-ffmpeg56:amd64 (7:2.8.11-0ubuntu0.16.04.1, automatic), i965-va-driver:amd64 (1.7.0-1, automatic), libzvbi-common:amd64 (0.2.35-10, automatic), libbluray1:amd64 (1:0.9.2-2, automatic), libschroedinger-1.0-0:amd64 (1.0.11-2.1build1, automatic), mesa-va-drivers:amd64 (17.2.4-0ubuntu1~16.04.4, automatic), libdrm-common:amd64 (2.4.83-1~16.04.1, automatic)
+Upgrade: libdrm-amdgpu1:amd64 (2.4.76-1~ubuntu16.04.1, 2.4.83-1~16.04.1), libdrm2:amd64 (2.4.76-1~ubuntu16.04.1, 2.4.83-1~16.04.1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:16:37
+
+Start-Date: 2018-02-12  15:24:33
+Commandline: apt install mplayer
+Requested-By: ay (1000)
+Install: libvorbisidec1:amd64 (1.0.2+svn18153-0.2, automatic), libopenal1:amd64 (1:1.16.0-3, automatic), libdvdread4:amd64 (5.0.3-1, automatic), libvdpau1:amd64 (1.1.1-3ubuntu1, automatic), liba52-0.7.4:amd64 (0.7.4-18, automatic), libdca0:amd64 (0.0.5-7build1, automatic), libesd0:amd64 (0.2.41-11, automatic), vdpau-driver-all:amd64 (1.1.1-3ubuntu1, automatic), libopenal-data:amd64 (1:1.16.0-3, automatic), libdvdnav4:amd64 (5.0.3-1, automatic), python-talloc:amd64 (2.1.5-2, automatic), samba-libs:amd64 (2:4.3.11+dfsg-0ubuntu0.16.04.12, automatic), libass5:amd64 (0.13.1-1, automatic), libpostproc-ffmpeg53:amd64 (7:2.8.11-0ubuntu0.16.04.1, automatic), libmpg123-0:amd64 (1.22.4-1, automatic), esound-common:amd64 (0.2.41-11, automatic), libsdl1.2debian:amd64 (1.2.15+dfsg1-3, automatic), libmad0:amd64 (0.15.1b-8ubuntu1, automatic), libsmbclient:amd64 (2:4.3.11+dfsg-0ubuntu0.16.04.12, automatic), libmpeg2-4:amd64 (0.5.1-7, automatic), libaudiofile1:amd64 (0.3.6-2ubuntu0.16.04.1, automatic), libdirectfb-1.2-9:amd64 (1.2.10.0-5.1, automatic), libenca0:amd64 (1.18-1, automatic), libbs2b0:amd64 (3.1.0+dfsg-2.2, automatic), mesa-vdpau-drivers:amd64 (17.2.4-0ubuntu1~16.04.4, automatic), libfaad2:amd64 (2.8.0~cvs20150510-1, automatic), mplayer:amd64 (2:1.2.1-1ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:24:35
+
+Start-Date: 2018-02-12  15:25:36
+Commandline: apt install vlc browser-plugin-vlc
+Requested-By: ay (1000)
+Install: libdc1394-22:amd64 (2.2.4-1, automatic), libssh2-1:amd64 (1.5.0-2ubuntu0.1, automatic), libgles2-mesa:amd64 (17.2.4-0ubuntu1~16.04.4, automatic), libchromaprint0:amd64 (1.3-1, automatic), libgroupsock8:amd64 (2016.02.09-1, automatic), vlc-plugin-samba:amd64 (2.2.2-5ubuntu0.16.04.4, automatic), libupnp6:amd64 (1:1.6.19+git20160116-1, automatic), browser-plugin-vlc:amd64 (2.0.6-4), libebml4v5:amd64 (1.3.3-1, automatic), vlc-nox:amd64 (2.2.2-5ubuntu0.16.04.4, automatic), vlc-plugin-notify:amd64 (2.2.2-5ubuntu0.16.04.4, automatic), libvlc5:amd64 (2.2.2-5ubuntu0.16.04.4, automatic), libxcb-composite0:amd64 (1.11.1-1ubuntu1, automatic), libvlccore8:amd64 (2.2.2-5ubuntu0.16.04.4, automatic), libqt5x11extras5:amd64 (5.5.1-3build1, automatic), libdvbpsi10:amd64 (1.3.0-4, automatic), libresid-builder0c2a:amd64 (2.1.1-14ubuntu2, automatic), libproxy-tools:amd64 (0.4.11-5ubuntu1, automatic), libbasicusageenvironment1:amd64 (2016.02.09-1, automatic), libxcb-xv0:amd64 (1.11.1-1ubuntu1, automatic), vlc:amd64 (2.2.2-5ubuntu0.16.04.4), vlc-data:amd64 (2.2.2-5ubuntu0.16.04.4, automatic), libmatroska6v5:amd64 (1.4.4-1, automatic), libcddb2:amd64 (1.3.2-5fakesync1, automatic), libiso9660-8:amd64 (0.83-4.2ubuntu1, automatic), libmpcdec6:amd64 (2:0.1~r459-4.1build1, automatic), libkate1:amd64 (0.4.1-7, automatic), libsidplay2v5:amd64 (2.1.1-14ubuntu2, automatic), libva-x11-1:amd64 (1.7.0-1ubuntu0.1, automatic), liblivemedia50:amd64 (2016.02.09-1, automatic), libva-drm1:amd64 (1.7.0-1ubuntu0.1, automatic), libsdl-image1.2:amd64 (1.2.12-5build2, automatic), libvcdinfo0:amd64 (0.7.24+dfsg-0.2, automatic), libusageenvironment3:amd64 (2016.02.09-1, automatic)
+Upgrade: libglapi-mesa:amd64 (17.0.7-0ubuntu0.16.04.1, 17.2.4-0ubuntu1~16.04.4), libgl1-mesa-glx:amd64 (17.0.7-0ubuntu0.16.04.1, 17.2.4-0ubuntu1~16.04.4)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  15:25:41
+
+Start-Date: 2018-02-12  17:25:16
+Commandline: apt remove screenkey
+Requested-By: ay (1000)
+Remove: screenkey:amd64 (0.2-2fakesync1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  17:25:17
+
+Start-Date: 2018-02-12  17:25:39
+Commandline: apt autoremove screenkey
+Requested-By: ay (1000)
+Remove: python-xlib:amd64 (0.14+20091101-5)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-12  17:25:40
+
+Start-Date: 2018-02-13  10:01:00
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: update-manager-core:amd64 (1:16.04.7, 1:16.04.12), update-manager:amd64 (1:16.04.7, 1:16.04.12), libwavpack1:amd64 (4.75.2-2, 4.75.2-2ubuntu0.1), python3-update-manager:amd64 (1:16.04.7, 1:16.04.12), firefox-locale-en:amd64 (58.0.1+build1-0ubuntu0.16.04.1, 58.0.2+build1-0ubuntu0.16.04.1), firefox:amd64 (58.0.1+build1-0ubuntu0.16.04.1, 58.0.2+build1-0ubuntu0.16.04.1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-13  10:01:07
+
+Start-Date: 2018-02-15  04:32:30
+Commandline: apt-get install emacs-snapshot emacs-snapshot-el
+Requested-By: ay (1000)
+Install: emacs-snapshot-common:amd64 (20180213:94263-98f4e33~ubuntu16.04.1, automatic), liblockfile-bin:amd64 (1.09-6ubuntu1, automatic), libm17n-0:amd64 (1.7.0-3, automatic), emacs-snapshot-el:amd64 (20180213:94263-98f4e33~ubuntu16.04.1), emacs-snapshot:amd64 (20180213:94263-98f4e33~ubuntu16.04.1), libotf0:amd64 (0.9.13-3, automatic), m17n-db:amd64 (1.7.0-2, automatic), liblockfile1:amd64 (1.09-6ubuntu1, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-15  04:32:35
+
+Start-Date: 2018-02-15  10:38:49
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libvorbisfile3:amd64 (1.3.5-3, 1.3.5-3ubuntu0.1), libvorbisenc2:amd64 (1.3.5-3, 1.3.5-3ubuntu0.1), linux-firmware:amd64 (1.157.14, 1.157.16), libvorbis0a:amd64 (1.3.5-3, 1.3.5-3ubuntu0.1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-15  10:39:23
+
+Start-Date: 2018-02-17  17:26:57
+Commandline: apt install xclip
+Requested-By: ay (1000)
+Install: xclip:amd64 (0.12+svn84-4)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-17  17:26:57
+
+Start-Date: 2018-02-19  01:36:35
+Commandline: apt install python-pip
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  01:36:36
+
+Start-Date: 2018-02-19  01:37:09
+Commandline: apt install python-setuptools m2crypto
+Requested-By: ay (1000)
+Install: python-m2crypto:amd64 (0.22.6~rc4-1ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  01:37:10
+
+Start-Date: 2018-02-19  01:58:56
+Commandline: apt install privoxy
+Requested-By: ay (1000)
+Install: privoxy:amd64 (3.0.24-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  01:58:59
+
+Start-Date: 2018-02-19  02:37:48
+Commandline: apt remove privoxy
+Requested-By: ay (1000)
+Remove: privoxy:amd64 (3.0.24-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  02:37:50
+
+Start-Date: 2018-02-19  02:38:06
+Commandline: apt autoremove privoxy
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  02:38:06
+
+Start-Date: 2018-02-19  02:40:09
+Commandline: apt remove --purge privoxy
+Requested-By: ay (1000)
+Purge: privoxy:amd64 ()
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  02:40:10
+
+Start-Date: 2018-02-19  03:11:04
+Commandline: apt-get install polipo
+Requested-By: ay (1000)
+Install: dnsmasq:amd64 (2.75-1ubuntu0.16.04.4, automatic), polipo:amd64 (1.1.1-7)
+Upgrade: dnsmasq-base:amd64 (2.75-1ubuntu0.16.04.3, 2.75-1ubuntu0.16.04.4)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-19  03:11:06
+
+Start-Date: 2018-02-22  10:48:06
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-image-extra-4.13.0-36-generic:amd64 (4.13.0-36.40~16.04.1, automatic), linux-headers-4.13.0-36-generic:amd64 (4.13.0-36.40~16.04.1, automatic), linux-headers-4.13.0-36:amd64 (4.13.0-36.40~16.04.1, automatic), linux-image-4.13.0-36-generic:amd64 (4.13.0-36.40~16.04.1, automatic)
+Upgrade: libreoffice-style-breeze:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libreoffice-math:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libmpx0:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libcups2:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), linux-libc-dev:amd64 (4.4.0-112.135, 4.4.0-116.140), linux-image-generic-hwe-16.04:amd64 (4.13.0.32.52, 4.13.0.36.55), libreoffice-core:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), cpp-5:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libreoffice-gtk:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libitm1:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), linux-generic-hwe-16.04:amd64 (4.13.0.32.52, 4.13.0.36.55), libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), cups-server-common:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libasan2:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), cups-common:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), python3-uno:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libreoffice-style-galaxy:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libreoffice-base-core:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), gcc-5-base:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libreoffice-ogltrans:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libreoffice-impress:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libtsan0:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libubsan0:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), cups-ppdc:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), g++-5:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libcupsmime1:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), gcc-5:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), ure:amd64 (5.1.6~rc2-0ubuntu1~xenial2, 5.1.6~rc2-0ubuntu1~xenial3), libreoffice-writer:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libreoffice-common:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), liblsan0:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libgomp1:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), fonts-opensymbol:amd64 (2:102.7+LibO5.1.6~rc2-0ubuntu1~xenial2, 2:102.7+LibO5.1.6~rc2-0ubuntu1~xenial3), libcupsppdc1:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libreoffice-pdfimport:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), uno-libs3:amd64 (5.1.6~rc2-0ubuntu1~xenial2, 5.1.6~rc2-0ubuntu1~xenial3), cups-bsd:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), linux-headers-generic-hwe-16.04:amd64 (4.13.0.32.52, 4.13.0.36.55), cups-core-drivers:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libatomic1:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), cups-daemon:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), libreoffice-gnome:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libcupsimage2:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libreoffice-calc:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libstdc++6:amd64 (5.4.0-6ubuntu1~16.04.4, 5.4.0-6ubuntu1~16.04.9), cups:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libcupscgi1:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), cups-client:amd64 (2.1.3-4, 2.1.3-4ubuntu0.4), libreoffice-draw:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3), libreoffice-avmedia-backend-gstreamer:amd64 (1:5.1.6~rc2-0ubuntu1~xenial2, 1:5.1.6~rc2-0ubuntu1~xenial3)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-22  10:49:49
+
+Start-Date: 2018-02-25  07:01:40
+Commandline: apt-get remove vim-common vim-tiny vim
+Requested-By: ay (1000)
+Remove: vim-gnome:amd64 (2:7.4.1689-3ubuntu1.2), vim-common:amd64 (2:7.4.1689-3ubuntu1.2), vim-nox:amd64 (2:7.4.1689-3ubuntu1.2), vim:amd64 (2:7.4.1689-3ubuntu1.2), vim-gnome-py2:amd64 (2:7.4.1689-3ubuntu1.2), vim-nox-py2:amd64 (2:7.4.1689-3ubuntu1.2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:01:46
+
+Start-Date: 2018-02-25  07:02:09
+Commandline: apt-get remove vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:02:10
+
+Start-Date: 2018-02-25  07:09:37
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:09:38
+
+Start-Date: 2018-02-25  07:10:19
+Commandline: apt purge vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:10:20
+
+Start-Date: 2018-02-25  07:11:17
+Commandline: apt-get autoremove vim
+Requested-By: ay (1000)
+Remove: linux-headers-4.10.0-28-generic:amd64 (4.10.0-28.32~16.04.2), javascript-common:amd64 (11), ruby2.3:amd64 (2.3.1-2~16.04.6), rake:amd64 (10.5.0-2), ruby-net-telnet:amd64 (0.1.1-2), libjs-jquery:amd64 (1.11.3+dfsg-4), linux-image-4.10.0-28-generic:amd64 (4.10.0-28.32~16.04.2), ruby-minitest:amd64 (5.8.4-2), libruby2.3:amd64 (2.3.1-2~16.04.6), ruby:amd64 (1:2.3.0+1), vim-runtime:amd64 (2:7.4.1689-3ubuntu1.2), ruby-power-assert:amd64 (0.2.7-1), vim-gui-common:amd64 (2:7.4.1689-3ubuntu1.2), rubygems-integration:amd64 (1.10), fonts-lato:amd64 (2.0-1), linux-headers-4.10.0-28:amd64 (4.10.0-28.32~16.04.2), ruby-test-unit:amd64 (3.1.7-2), linux-image-extra-4.10.0-28-generic:amd64 (4.10.0-28.32~16.04.2), ruby-did-you-mean:amd64 (1.0.0-2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:11:18
+
+Start-Date: 2018-02-25  07:13:16
+Commandline: apt autoremove vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:13:16
+
+Start-Date: 2018-02-25  07:27:43
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:27:43
+
+Start-Date: 2018-02-25  07:28:52
+Commandline: apt remove vim-gtk
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:28:53
+
+Start-Date: 2018-02-25  07:30:26
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:30:26
+
+Start-Date: 2018-02-25  07:30:42
+Commandline: apt remove vim-runtime
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:30:42
+
+Start-Date: 2018-02-25  07:30:54
+Commandline: apt remove vim-tiny
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:30:54
+
+Start-Date: 2018-02-25  07:31:03
+Commandline: apt remove vim-common
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:31:03
+
+Start-Date: 2018-02-25  07:31:10
+Commandline: apt remove vim-doc
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:31:10
+
+Start-Date: 2018-02-25  07:31:20
+Commandline: apt remove vim-scripts
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:31:20
+
+Start-Date: 2018-02-25  07:31:53
+Commandline: apt remove vim-scripts
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:31:53
+
+Start-Date: 2018-02-25  07:33:31
+Commandline: apt install python-xlib
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  07:33:32
+
+Start-Date: 2018-02-25  12:58:51
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  12:58:51
+
+Start-Date: 2018-02-25  13:01:29
+Commandline: apt remove vim
+Requested-By: ay (1000)
+End-Date: 2018-02-25  13:01:29
+
+Start-Date: 2018-02-25  13:17:47
+Commandline: apt -y install vim
+Requested-By: ay (1000)
+Install: vim-common:amd64 (2:7.4.1689-3ubuntu1.2, automatic), vim-runtime:amd64 (2:7.4.1689-3ubuntu1.2, automatic), vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:17:49
+
+Start-Date: 2018-02-25  13:19:35
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Remove: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:19:36
+
+Start-Date: 2018-02-25  13:21:15
+Commandline: apt install vim
+Requested-By: ay (1000)
+Install: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:21:15
+
+Start-Date: 2018-02-25  13:34:47
+Commandline: apt-get remove vim
+Requested-By: ay (1000)
+Remove: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:34:47
+
+Start-Date: 2018-02-25  13:35:46
+Commandline: apt-get remove --auto-remove vim
+Requested-By: ay (1000)
+Remove: vim-common:amd64 (2:7.4.1689-3ubuntu1.2), vim-runtime:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:35:46
+
+Start-Date: 2018-02-25  13:39:17
+Commandline: apt install vim
+Requested-By: ay (1000)
+Install: vim-common:amd64 (2:7.4.1689-3ubuntu1.2, automatic), vim-runtime:amd64 (2:7.4.1689-3ubuntu1.2, automatic), vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:39:19
+
+Start-Date: 2018-02-25  13:42:34
+Commandline: apt-get remove vim
+Requested-By: ay (1000)
+Remove: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:42:34
+
+Start-Date: 2018-02-25  13:48:49
+Commandline: apt remove vim-common
+Requested-By: ay (1000)
+Remove: vim-common:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:48:49
+
+Start-Date: 2018-02-25  13:51:31
+Commandline: apt install --reinstall vim
+Requested-By: ay (1000)
+Install: vim-common:amd64 (2:7.4.1689-3ubuntu1.2, automatic), vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:51:31
+
+Start-Date: 2018-02-25  13:58:54
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Remove: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:58:54
+
+Start-Date: 2018-02-25  13:59:58
+Commandline: apt install --reinstall vim
+Requested-By: ay (1000)
+Install: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  13:59:58
+
+Start-Date: 2018-02-25  14:00:35
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Remove: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  14:00:35
+
+Start-Date: 2018-02-25  14:07:27
+Commandline: apt-get install vim
+Requested-By: ay (1000)
+Install: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+End-Date: 2018-02-25  14:07:28
+
+Start-Date: 2018-02-25  14:07:45
+Commandline: apt-get -y install --reinstall fonts-sil-abyssinica
+Requested-By: ay (1000)
+Reinstall: fonts-sil-abyssinica:amd64 (1.500-1)
+End-Date: 2018-02-25  14:07:46
+
+Start-Date: 2018-02-25  14:07:52
+Commandline: apt-get -y install --reinstall libatk-adaptor:amd64
+Requested-By: ay (1000)
+Reinstall: libatk-adaptor:amd64 (2.18.1-2ubuntu1)
+End-Date: 2018-02-25  14:07:55
+
+Start-Date: 2018-02-25  14:08:02
+Commandline: apt-get -y install --reinstall libvorbisfile3:amd64
+Requested-By: ay (1000)
+Reinstall: libvorbisfile3:amd64 (1.3.5-3ubuntu0.1)
+End-Date: 2018-02-25  14:08:03
+
+Start-Date: 2018-02-25  14:08:11
+Commandline: apt-get -y install --reinstall libquadmath0:amd64
+Requested-By: ay (1000)
+Reinstall: libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.9)
+End-Date: 2018-02-25  14:08:12
+
+Start-Date: 2018-02-25  14:08:19
+Commandline: apt-get -y install --reinstall libxkbfile1:amd64
+Requested-By: ay (1000)
+Reinstall: libxkbfile1:amd64 (1:1.0.9-0ubuntu1)
+End-Date: 2018-02-25  14:08:19
+
+Start-Date: 2018-02-25  14:08:24
+Commandline: apt-get -y install --reinstall linux-sound-base
+Requested-By: ay (1000)
+Reinstall: linux-sound-base:amd64 (1.0.25+dfsg-0ubuntu5)
+End-Date: 2018-02-25  14:08:24
+
+Start-Date: 2018-02-25  14:08:30
+Commandline: apt-get -y install --reinstall python-apt-common
+Requested-By: ay (1000)
+Upgrade: python-apt-common:amd64 (1.1.0~beta1build1, 1.1.0~beta1ubuntu0.16.04.1)
+End-Date: 2018-02-25  14:08:30
+
+Start-Date: 2018-02-25  14:08:43
+Commandline: apt-get -y install --reinstall libgs9-common
+Requested-By: ay (1000)
+Reinstall: libgs9-common:amd64 (9.18~dfsg~0-0ubuntu2.7)
+End-Date: 2018-02-25  14:08:43
+
+Start-Date: 2018-02-25  14:08:50
+Commandline: apt-get -y install --reinstall libnpth0:amd64
+Requested-By: ay (1000)
+Reinstall: libnpth0:amd64 (1.2-3)
+End-Date: 2018-02-25  14:08:50
+
+Start-Date: 2018-02-25  14:09:00
+Commandline: apt-get -y install --reinstall libgom-1.0-common
+Requested-By: ay (1000)
+Reinstall: libgom-1.0-common:amd64 (0.3.1-1)
+End-Date: 2018-02-25  14:09:00
+
+Start-Date: 2018-02-25  14:09:08
+Commandline: apt-get -y install --reinstall libqt5qml5:amd64
+Requested-By: ay (1000)
+Reinstall: libqt5qml5:amd64 (5.5.1-2ubuntu6)
+End-Date: 2018-02-25  14:09:09
+
+Start-Date: 2018-02-25  14:09:20
+Commandline: apt-get -y install --reinstall libgtk2.0-bin
+Requested-By: ay (1000)
+Upgrade: libgtk2.0-bin:amd64 (2.24.30-1ubuntu1.16.04.1, 2.24.30-1ubuntu1.16.04.2), libgail-common:amd64 (2.24.30-1ubuntu1.16.04.1, 2.24.30-1ubuntu1.16.04.2), libgtk2.0-0:amd64 (2.24.30-1ubuntu1.16.04.1, 2.24.30-1ubuntu1.16.04.2), libgail18:amd64 (2.24.30-1ubuntu1.16.04.1, 2.24.30-1ubuntu1.16.04.2)
+End-Date: 2018-02-25  14:09:21
+
+Start-Date: 2018-02-25  14:09:24
+Commandline: apt-get -y install --reinstall vdpau-driver-all:amd64
+Requested-By: ay (1000)
+Reinstall: vdpau-driver-all:amd64 (1.1.1-3ubuntu1)
+End-Date: 2018-02-25  14:09:25
+
+Start-Date: 2018-02-25  14:09:30
+Commandline: apt-get -y install --reinstall libsox-fmt-base:amd64
+Requested-By: ay (1000)
+Reinstall: libsox-fmt-base:amd64 (14.4.1-5)
+End-Date: 2018-02-25  14:09:30
+
+Start-Date: 2018-02-25  14:09:38
+Commandline: apt-get -y install --reinstall evolution-data-server
+Requested-By: ay (1000)
+Reinstall: evolution-data-server:amd64 (3.18.5-1ubuntu1)
+End-Date: 2018-02-25  14:09:38
+
+Start-Date: 2018-02-25  14:09:45
+Commandline: apt-get -y install --reinstall libaccount-plugin-generic-oauth
+Requested-By: ay (1000)
+Reinstall: libaccount-plugin-generic-oauth:amd64 (0.12+16.04.20160126-0ubuntu1)
+End-Date: 2018-02-25  14:09:45
+
+Start-Date: 2018-02-25  14:09:49
+Commandline: apt-get -y install --reinstall bind9-host
+Requested-By: ay (1000)
+Reinstall: bind9-host:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.10)
+End-Date: 2018-02-25  14:09:49
+
+Start-Date: 2018-02-25  14:09:53
+Commandline: apt-get -y install --reinstall libhtml-tagset-perl
+Requested-By: ay (1000)
+Reinstall: libhtml-tagset-perl:amd64 (3.20-2)
+End-Date: 2018-02-25  14:09:54
+
+Start-Date: 2018-02-25  14:09:59
+Commandline: apt-get -y install --reinstall iputils-ping
+Requested-By: ay (1000)
+Reinstall: iputils-ping:amd64 (3:20121221-5ubuntu2)
+End-Date: 2018-02-25  14:09:59
+
+Start-Date: 2018-02-25  14:10:05
+Commandline: apt-get -y install --reinstall libcgmanager0:amd64
+Requested-By: ay (1000)
+Reinstall: libcgmanager0:amd64 (0.39-2ubuntu5)
+End-Date: 2018-02-25  14:10:06
+
+Start-Date: 2018-02-25  14:10:11
+Commandline: apt-get -y install --reinstall evince
+Requested-By: ay (1000)
+Reinstall: evince:amd64 (3.18.2-1ubuntu4.3)
+End-Date: 2018-02-25  14:10:11
+
+Start-Date: 2018-02-25  14:10:21
+Commandline: apt-get -y install --reinstall libfontconfig1-dev:amd64
+Requested-By: ay (1000)
+Reinstall: libfontconfig1-dev:amd64 (2.11.94-0ubuntu1.1)
+End-Date: 2018-02-25  14:10:21
+
+Start-Date: 2018-02-25  14:10:30
+Commandline: apt-get -y install --reinstall libxi6:amd64
+Requested-By: ay (1000)
+Reinstall: libxi6:amd64 (2:1.7.6-1)
+End-Date: 2018-02-25  14:10:30
+
+Start-Date: 2018-02-25  14:10:37
+Commandline: apt-get -y install --reinstall libedit2:amd64
+Requested-By: ay (1000)
+Reinstall: libedit2:amd64 (3.1-20150325-1ubuntu2)
+End-Date: 2018-02-25  14:10:37
+
+Start-Date: 2018-02-25  14:10:44
+Commandline: apt-get -y install --reinstall intel-gpu-tools
+Requested-By: ay (1000)
+Reinstall: intel-gpu-tools:amd64 (1.14-1)
+End-Date: 2018-02-25  14:10:45
+
+Start-Date: 2018-02-25  14:10:50
+Commandline: apt-get -y install --reinstall python3-cryptography
+Requested-By: ay (1000)
+Reinstall: python3-cryptography:amd64 (1.2.3-1ubuntu0.1)
+End-Date: 2018-02-25  14:10:51
+
+Start-Date: 2018-02-25  14:10:57
+Commandline: apt-get -y install --reinstall libpam-runtime
+Requested-By: ay (1000)
+Reinstall: libpam-runtime:amd64 (1.1.8-3.2ubuntu2)
+End-Date: 2018-02-25  14:10:57
+
+Start-Date: 2018-02-25  14:11:03
+Commandline: apt-get -y install --reinstall libwinpr-interlocked0.1:amd64
+Requested-By: ay (1000)
+Reinstall: libwinpr-interlocked0.1:amd64 (1.1.0~git20140921.1.440916e+dfsg1-5ubuntu1.2)
+End-Date: 2018-02-25  14:11:04
+
+Start-Date: 2018-02-25  14:11:12
+Commandline: apt-get -y install --reinstall liblist-moreutils-perl
+Requested-By: ay (1000)
+Reinstall: liblist-moreutils-perl:amd64 (0.413-1build1)
+End-Date: 2018-02-25  14:11:12
+
+Start-Date: 2018-02-25  14:11:18
+Commandline: apt-get -y install --reinstall qmlscene
+Requested-By: ay (1000)
+Reinstall: qmlscene:amd64 (5.5.1-2ubuntu6)
+End-Date: 2018-02-25  14:11:18
+
+Start-Date: 2018-02-25  14:11:23
+Commandline: apt-get -y install --reinstall libncurses5:amd64
+Requested-By: ay (1000)
+Reinstall: libncurses5:amd64 (6.0+20160213-1ubuntu1)
+End-Date: 2018-02-25  14:11:24
+
+Start-Date: 2018-02-25  14:11:36
+Commandline: apt-get -y install --reinstall libavcodec-ffmpeg56:amd64
+Requested-By: ay (1000)
+Reinstall: libavcodec-ffmpeg56:amd64 (7:2.8.11-0ubuntu0.16.04.1)
+End-Date: 2018-02-25  14:11:37
+
+Start-Date: 2018-02-25  14:11:44
+Commandline: apt-get -y install --reinstall baobab
+Requested-By: ay (1000)
+Reinstall: baobab:amd64 (3.18.1-1ubuntu1)
+End-Date: 2018-02-25  14:11:44
+
+Start-Date: 2018-02-25  14:11:49
+Commandline: apt-get -y install --reinstall hplip
+Requested-By: ay (1000)
+Reinstall: hplip:amd64 (3.16.3+repack0-1)
+End-Date: 2018-02-25  14:11:49
+
+Start-Date: 2018-02-25  14:11:54
+Commandline: apt-get -y install --reinstall libart-2.0-2:amd64
+Requested-By: ay (1000)
+Reinstall: libart-2.0-2:amd64 (2.3.21-2)
+End-Date: 2018-02-25  14:11:55
+
+Start-Date: 2018-02-25  14:12:00
+Commandline: apt-get -y install --reinstall libenchant1c2a:amd64
+Requested-By: ay (1000)
+Reinstall: libenchant1c2a:amd64 (1.6.0-10.1build2)
+End-Date: 2018-02-25  14:12:00
+
+Start-Date: 2018-02-25  14:12:06
+Commandline: apt-get -y install --reinstall libgmp-dev:amd64
+Requested-By: ay (1000)
+Reinstall: libgmp-dev:amd64 (2:6.1.0+dfsg-2)
+End-Date: 2018-02-25  14:12:06
+
+Start-Date: 2018-02-25  14:12:14
+Commandline: apt-get -y install --reinstall libqt5core5a:amd64
+Requested-By: ay (1000)
+Reinstall: libqt5core5a:amd64 (5.5.1+dfsg-16ubuntu7.5)
+End-Date: 2018-02-25  14:12:15
+
+Start-Date: 2018-02-25  14:12:20
+Commandline: apt-get -y install --reinstall libraw15:amd64
+Requested-By: ay (1000)
+Reinstall: libraw15:amd64 (0.17.1-1ubuntu0.1)
+End-Date: 2018-02-25  14:12:21
+
+Start-Date: 2018-02-25  14:12:29
+Commandline: apt-get -y install --reinstall transmission-gtk
+Requested-By: ay (1000)
+Reinstall: transmission-gtk:amd64 (2.84-3ubuntu3.1)
+End-Date: 2018-02-25  14:12:29
+
+Start-Date: 2018-02-25  14:12:34
+Commandline: apt-get -y install --reinstall libgomp1:amd64
+Requested-By: ay (1000)
+Reinstall: libgomp1:amd64 (5.4.0-6ubuntu1~16.04.9)
+End-Date: 2018-02-25  14:12:34
+
+Start-Date: 2018-02-25  14:12:43
+Commandline: apt-get -y install --reinstall libreoffice-draw
+Requested-By: ay (1000)
+Reinstall: libreoffice-draw:amd64 (1:5.1.6~rc2-0ubuntu1~xenial3)
+End-Date: 2018-02-25  14:12:43
+
+Start-Date: 2018-02-25  14:12:48
+Commandline: apt-get -y install --reinstall libkpathsea6:amd64
+Requested-By: ay (1000)
+Reinstall: libkpathsea6:amd64 (2015.20160222.37495-1)
+End-Date: 2018-02-25  14:12:49
+
+Start-Date: 2018-02-25  14:12:53
+Commandline: apt-get -y install --reinstall libnet-domain-tld-perl
+Requested-By: ay (1000)
+Reinstall: libnet-domain-tld-perl:amd64 (1.73-1)
+End-Date: 2018-02-25  14:12:54
+
+Start-Date: 2018-02-25  14:12:59
+Commandline: apt-get -y install --reinstall python3.5
+Requested-By: ay (1000)
+Reinstall: python3.5:amd64 (3.5.2-2ubuntu0~16.04.4)
+End-Date: 2018-02-25  14:13:00
+
+Start-Date: 2018-02-25  14:13:07
+Commandline: apt-get -y install --reinstall pulseaudio
+Requested-By: ay (1000)
+Upgrade: libpulsedsp:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8), pulseaudio:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8), libpulse0:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8), libpulse-mainloop-glib0:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8), pulseaudio-module-x11:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8), pulseaudio-module-bluetooth:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8), pulseaudio-utils:amd64 (1:8.0-0ubuntu3.3, 1:8.0-0ubuntu3.8)
+End-Date: 2018-02-25  14:13:08
+
+Start-Date: 2018-02-25  14:13:12
+Commandline: apt-get -y install --reinstall libpaper1:amd64
+Requested-By: ay (1000)
+Reinstall: libpaper1:amd64 (1.1.24+nmu4ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:12
+
+Start-Date: 2018-02-25  14:13:19
+Commandline: apt-get -y install --reinstall plainbox-provider-checkbox
+Requested-By: ay (1000)
+Reinstall: plainbox-provider-checkbox:amd64 (0.25-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:20
+
+Start-Date: 2018-02-25  14:13:30
+Commandline: apt-get -y install --reinstall libqt5quick5:amd64
+Requested-By: ay (1000)
+Reinstall: libqt5quick5:amd64 (5.5.1-2ubuntu6)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:31
+
+Start-Date: 2018-02-25  14:13:38
+Commandline: apt-get -y install --reinstall rhythmbox-plugins
+Requested-By: ay (1000)
+Reinstall: rhythmbox-plugins:amd64 (3.3-1ubuntu7)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:39
+
+Start-Date: 2018-02-25  14:13:43
+Commandline: apt-get -y install --reinstall libatomic1:amd64
+Requested-By: ay (1000)
+Reinstall: libatomic1:amd64 (5.4.0-6ubuntu1~16.04.9)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:44
+
+Start-Date: 2018-02-25  14:13:49
+Commandline: apt-get -y install --reinstall libxaw7:amd64
+Requested-By: ay (1000)
+Reinstall: libxaw7:amd64 (2:1.0.13-1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:49
+
+Start-Date: 2018-02-25  14:13:53
+Commandline: apt-get -y install --reinstall libpython3-stdlib:amd64
+Requested-By: ay (1000)
+Reinstall: libpython3-stdlib:amd64 (3.5.1-3)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:54
+
+Start-Date: 2018-02-25  14:13:58
+Commandline: apt-get -y install --reinstall update-inetd
+Requested-By: ay (1000)
+Reinstall: update-inetd:amd64 (4.43)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:13:59
+
+Start-Date: 2018-02-25  14:14:09
+Commandline: apt-get -y install --reinstall libreoffice-help-en-us
+Requested-By: ay (1000)
+Reinstall: libreoffice-help-en-us:amd64 (1:5.1.4-0ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:14:10
+
+Start-Date: 2018-02-25  14:14:15
+Commandline: apt-get -y install --reinstall libgnomevfs2-0:amd64
+Requested-By: ay (1000)
+Reinstall: libgnomevfs2-0:amd64 (1:2.24.4-6.1ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:14:16
+
+Start-Date: 2018-02-25  14:14:20
+Commandline: apt-get -y install --reinstall libibverbs1
+Requested-By: ay (1000)
+Reinstall: libibverbs1:amd64 (1.1.8-1.1ubuntu2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:14:20
+
+Start-Date: 2018-02-25  14:14:24
+Commandline: apt-get -y install --reinstall libnm-glib-vpn1:amd64
+Requested-By: ay (1000)
+Upgrade: libnm-glib-vpn1:amd64 (1.2.6-0ubuntu0.16.04.1, 1.2.6-0ubuntu0.16.04.2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:14:25
+
+Start-Date: 2018-02-25  14:14:29
+Commandline: apt-get -y install --reinstall cpp
+Requested-By: ay (1000)
+Reinstall: cpp:amd64 (4:5.3.1-1ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:14:29
+
+Start-Date: 2018-02-25  14:14:33
+Commandline: apt-get -y install --reinstall libxcb-present0:amd64
+Requested-By: ay (1000)
+Reinstall: libxcb-present0:amd64 (1.11.1-1ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:14:34
+
+Start-Date: 2018-02-25  14:15:36
+Commandline: apt remove vim
+Requested-By: ay (1000)
+Remove: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:15:36
+
+Start-Date: 2018-02-25  14:19:53
+Commandline: apt install vim
+Requested-By: ay (1000)
+Install: vim:amd64 (2:7.4.1689-3ubuntu1.2)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:19:54
+
+Start-Date: 2018-02-25  14:21:15
+Commandline: apt install --reinstall -y python-pip-whl
+Requested-By: ay (1000)
+Reinstall: python-pip-whl:amd64 (8.1.1-2ubuntu0.4)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-02-25  14:21:15
