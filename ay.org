@@ -1,0 +1,39 @@
+
+
+
+
+* bash shell
+  gnome-<tab> | can list all ubuntu app from terminal
+  example: gnome-terminal -t "tile-name" -x bash -c "sh ./run.sh;exec bash;" | the exec bash; is finish the shell unclose
+  find . -type f -name "*.o" | xargs du -h |sort -nr
+
+
+
+  
+
+
+* tensorflow debug build
+  bazel build --verbose_failures -c dbg //tensorflow/tools/pip_package:build_pip_package
+  
+
+* bazel debug
+  gdb -d=/home/ay/ay/app/tensorflowTest/examples/cpp-tutorial/stage1/main hello-world  // -d source code directory
+
+
+
+  
+  
+* inotify log
+  inotifywait -mr -e modify,create,delete --timefmt '%H:%M' --format '%T %w %e %f' /home/ay/ >> /tmp/ay-inotify/home.log 
+
+  tail -f -n 3 /var/tmp/ay-inotify/home.log 
+
+  
+* xsel copy paste clipboard
+  $ pwd | xsel -i -b
+
+* gdb debug
+  $ gdb [-i=mi]
+  (gdb)file /home/ay/ay/app/tensorflow-test/examples/cpp-tutorial/stage1/bazel-bin/main/hello-world //set exe file
+  (gdb)set directories /home/ay/ay/app/tensorflow-test/examples/cpp-tutorial/stage1/main/ // set source code dir
+
